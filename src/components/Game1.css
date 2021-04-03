@@ -1,0 +1,38 @@
+label {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    margin: 20px;
+    padding: 20px;
+}
+.wrapper {
+    background-color: lightgreen;
+    width: 80vh;
+    height: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.slider {
+    width: 50%;
+    height: 5px;
+    border-radius: 5px;
+    background: salmon;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    width: 23px;
+    height: 24px;
+    border: 0;
+  }
+  .slider::-moz-range-thumb {
+    width: 23px;
+    height: 24px;
+    border: 0;
+  }
